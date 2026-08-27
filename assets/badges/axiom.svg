@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="28" role="img" aria-label="Axiom">
+<rect width="118" height="28" rx="4" fill="#111111"/>
+<g transform="translate(8 6)" fill="none" stroke="#ffffff" stroke-width="2">
+<path d="M2 15 8 1l6 14M4.5 10h7"/>
+</g>
+<text x="31" y="18.5" fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="600">AXIOM</text>
+</svg>

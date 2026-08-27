@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="28" role="img" aria-label="DEX Screener">
+<rect width="154" height="28" rx="4" fill="#111111"/>
+<g transform="translate(8 6)" fill="none" stroke="#63e6be" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M1 14V8l4-4 4 3 6-6"/>
+<path d="M1 14h15"/>
+<circle cx="5" cy="4" r="1.5" fill="#63e6be"/>
+<circle cx="9" cy="7" r="1.5" fill="#63e6be"/>
+<circle cx="15" cy="1" r="1.5" fill="#63e6be"/>
+</g>
+<text x="32" y="18.5" fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="10.5" font-weight="600">DEX SCREENER</text>
+</svg>
