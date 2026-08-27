@@ -2,9 +2,9 @@
 
 # 👋 Hey, I'm LostXRP
 
-### Cybersecurity • Developer • Crypto & Web3
+### Cybersecurity • Developer • Finance • Crypto & Web3
 
-I build tools that solve real problems, spanning cybersecurity, software development, automation, and blockchain technology.
+I build tools that solve real problems, spanning cybersecurity, software development, automation, financial markets, and blockchain technology.
 
 </div>
 
@@ -37,6 +37,7 @@ class LostXRP(Readme):
             "Cybersecurity",
             "Software Development",
             "Automation",
+            "Financial Markets",
             "Blockchain",
             "Solana",
             "Web3",
@@ -114,6 +115,16 @@ class LostXRP(Readme):
 > Trading Tools
 > Crypto APIs
 ```
+
+---
+
+<h2 align="center">🎯 Beyond Code</h2>
+
+<p align="center">
+  📈 Financial Markets & Investing &nbsp;•&nbsp;
+  ₿ Crypto & Digital Assets &nbsp;•&nbsp;
+  🔫 CS2 Skins & Collectibles
+</p>
 
 ---
 
