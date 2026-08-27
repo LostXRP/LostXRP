@@ -1,0 +1,48 @@
+name: Generate Streak Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 */12 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-profile-files
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      - name: Generate streak card
+        run: |
+          curl --fail --location --retry 3 \
+            "https://streak-stats.demolab.com/?user=LostXRP&theme=radical" \
+            --output profile/streak.svg
+
+      - name: Commit generated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/streak.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update streak stats"
+          git pull --rebase origin main
+          git push origin main
