@@ -1,0 +1,54 @@
+name: Generate README Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-profile-files
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      - name: Generate GitHub stats
+        run: |
+          curl --fail --location --retry 3 \
+            "https://readme-stats-fast.vercel.app/api?username=LostXRP&show_icons=true&theme=radical" \
+            --output profile/stats.svg
+
+      - name: Generate top languages
+        run: |
+          curl --fail --location --retry 3 \
+            "https://readme-stats-fast.vercel.app/api/top-langs/?username=LostXRP&layout=compact&theme=radical" \
+            --output profile/top-langs.svg
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/stats.svg profile/top-langs.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update README stats"
+          git pull --rebase origin main
+          git push origin main
