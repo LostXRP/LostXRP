@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hey, I'm LostXRP
+# Hey, I'm LostXRP
 
 ### Cybersecurity • Developer • Finance • Crypto & Web3
 
@@ -10,7 +10,7 @@ I build tools that solve real problems, spanning cybersecurity, software develop
 
 ---
 
-<h2 align="center">🤓 Stats For Nerds</h2>
+<h2 align="center">Stats For Nerds</h2>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=LostXRP&label=TOTAL%20PROFILE%20VIEWS&color=ff2e88&style=for-the-badge" alt="Profile Views" />
@@ -23,7 +23,7 @@ I build tools that solve real problems, spanning cybersecurity, software develop
 
 ---
 
-<h2 align="center">💻 About Me</h2>
+<h2 align="center">About Me</h2>
 
 ```python
 from github import Readme
@@ -49,7 +49,7 @@ class LostXRP(Readme):
 
 ---
 
-<h2 align="center">🛠️ Languages & Tools</h2>
+<h2 align="center">Languages & Tools</h2>
 
 <h3 align="center">Languages</h3>
 
@@ -95,7 +95,7 @@ class LostXRP(Readme):
 
 ---
 
-<h2 align="center">🔐 Cybersecurity Focus</h2>
+<h2 align="center">Cybersecurity Focus</h2>
 
 ```text
 > Security Research
@@ -107,7 +107,7 @@ class LostXRP(Readme):
 
 ---
 
-<h2 align="center">⛓️ Web3 Focus</h2>
+<h2 align="center">Web3 Focus</h2>
 
 ```text
 > Solana Development
@@ -118,23 +118,23 @@ class LostXRP(Readme):
 
 ---
 
-<h2 align="center">🎯 Beyond Code</h2>
+<h2 align="center">Beyond Code</h2>
 
 <p align="center">
-  📈 Financial Markets & Investing &nbsp;•&nbsp;
-  ₿ Crypto & Digital Assets &nbsp;•&nbsp;
-  🔫 CS2 Skins & Collectibles
+  Financial Markets & Investing &nbsp;•&nbsp;
+  Crypto & Digital Assets &nbsp;•&nbsp;
+  CS2 Skins & Collectibles
 </p>
 
 ---
 
-<h2 align="center">📊 Activity</h2>
+<h2 align="center">Activity</h2>
 
 <p align="center">
   <img src="./profile/streak.svg" alt="GitHub Streak" />
 </p>
 
-<h3 align="center">🐍 Contribution Snake</h3>
+<h3 align="center">Contribution Snake</h3>
 
 <p align="center">
   <img width="100%" src="https://raw.githubusercontent.com/LostXRP/LostXRP/output/snake.svg" alt="Snake animation" />
@@ -144,6 +144,6 @@ class LostXRP(Readme):
 
 <div align="center">
 
-### 🕷️ Build. Break. Learn. Repeat.
+### Build. Break. Learn. Repeat.
 
 </div>
